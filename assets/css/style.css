@@ -4,6 +4,9 @@
     padding: 0;
     box-sizing: border-box;
 }
+body{
+    overflow-x: hidden;
+}
 .bg-info2{background: #fdc735;}
 .bg-danger2{background: #dd127b;}
 .bg-success2{background: #10c45c;}
@@ -64,6 +67,9 @@ a{
 }
 .navbar .nav-item a:hover{
     color: var(--darkpink);
+}
+.dropdown:hover .dropdown-menu{
+    display: block;
 }
 /* Header Section End */
 /* Hero Section Start */
@@ -212,7 +218,7 @@ button .btn:hover{
 /* Search Registration Section End */
 /* Gallery Section Start */
 .ablum{
-    background-color: #0093dd;
+    background-color: #e1edf3;
 }
 .container .image-container{
     display: flex;
@@ -237,6 +243,7 @@ button .btn:hover{
 }
 .image-container .imagee:hover img{
     transform: scale(1.1);
+    transition: 1.5s;
 }
 .popop-imagee{
     position:fixed;
